@@ -1,0 +1,12 @@
+1. 94833
+
+2. 76543, 82513
+
+3. 
+
+Número de cuenta; Apellido Paterno;  Apellido Materno; Calificación;
+313129; Jorge; Galeote; Rodriguez; 80;
+94833;	Gael; Guzman; Alburo; 100;
+76543; Alexis; Sanchez; Rosas; 75;
+19647; Joel; Regalado; Flores; 99;
+82513; Julio; Pinzon; Aguirre; 10;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration >
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.url">jdbc:mariadb://localhost:3306/agenda</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">password</property>
+
+        <!-- JDBC connection pool (HikariCP is default in Hibernate 6.x) -->
+        <property name="hibernate.hikari.minimumIdle">5</property>
+        <property name="hibernate.hikari.maximumPoolSize">20</property>
+        <property name="hibernate.hikari.idleTimeout">300000</property>
+
+        <!-- Schema generation -->
+        <property name="hibernate.hbm2ddl.auto">create-drop</property>
+
+        <!-- SQL Logging -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Entities -->
+
+
+    </session-factory>
+</hibernate-configuration>
