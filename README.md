@@ -1,2 +1,3 @@
-# java
-Data Structures in Java
+# Java Ecosystem
+
+Diplomado en tecnología Java
