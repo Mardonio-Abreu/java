@@ -1,27 +1,24 @@
-# Java Ecosystem
+# Diploma in Systems Development with JAVA Technology (UNAM)
 
-Diplomado en tecnología Java
+1. Object-Oriented Programming with Java
 
-1  Programación orientada a objetos con Java
+2. Database Management with Java
 
-2  Manejo de bases de datos con Java
+3. Design Principles and Patterns
 
-3  Principios y patrones de diseño
+4. Persistence with Hibernate
 
-4  Persistencia con Hibernate
+5. Enterprise Application Development with Jakarta EE
 
-5  Desarrollo de aplicaciones empresariales con Jakarta EE
+6. JavaServer Faces
 
-6  JavaServer Faces
+7. Introduction to Enterprise Application Development with Spring Framework
 
-7  Introducción al desarrollo de aplicaciones empresariales con Spring Framework
+8. Persistence with Spring Data
 
-8  Persistencia con Spring Data
+9. Web Application Development with Spring Web MVC
 
-9  Desarrollo de aplicaciones Web con Spring Web MVC
+10. RESTful APIs with Spring Boot
 
-10 API RESTful con Spring Boot
+11. Spring Security
 
-11 Spring Security
-
-Duración total 240 horas
