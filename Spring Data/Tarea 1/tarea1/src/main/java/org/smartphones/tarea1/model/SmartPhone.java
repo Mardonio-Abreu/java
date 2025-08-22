@@ -30,8 +30,4 @@ public class SmartPhone {
         return getId() == that.getId() && getNumeroSerie() == that.getNumeroSerie() && Double.compare(getPrecio(), that.getPrecio()) == 0 && Objects.equals(getModelo(), that.getModelo());
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(getId(), getModelo(), getNumeroSerie(), getPrecio());
-    }
 }

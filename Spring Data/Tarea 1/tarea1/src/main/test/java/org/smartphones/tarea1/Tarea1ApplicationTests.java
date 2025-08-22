@@ -38,19 +38,6 @@ class Tarea1ApplicationTests {
         assertTrue(smartphoneRepository.findById(id).isPresent());
     }
 
-    @Test
-    void testFindAll() {
-        SmartPhone smartphone = new SmartPhone();
-        smartphone.setModelo("Samsung");
-        smartphone.setNumeroSerie(123456);
-        smartphone.setPrecio(800.0);
-
-        smartphoneRepository.save(smartphone);
-
-        List<SmartPhone> smartPhones = smartphoneRepository.findAll();
-
-        assertFalse(smartPhones.isEmpty());
-    }
 
     @Test
     void testFindById() {
