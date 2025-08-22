@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS tareasDB DEFAULT CHARACTER SET utf8;
 USE tareasDB;
 
 CREATE TABLE smartphone(
-                        idmarca INTEGER NOT NULL AUTO_INCREMENT,
+                        idmarca INTEGER AUTO_INCREMENT,
                         modelo VARCHAR(40) NOT NULL,
                         numero_de_serie INTEGER NOT NULL,
                         precio INTEGER NOT NULL, 
