@@ -1,5 +1,0 @@
-<bean id="actividad"
-          class="dgtic.core.modelo.GestionProyectos" />
-    <bean id="actividadNueva"
-          class="dgtic.core.modelo.IntercambioConocimientos" />
------

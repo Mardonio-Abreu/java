@@ -1,6 +1,0 @@
-Número de cuenta; Apellido Paterno;  Apellido Materno;
-313129; Jorge; Galeote; Rodriguez;
-94833;	Gael; Guzman; Alburo;
-76543; Alexis; Sanchez; Rosas;
-19647; Joel; Regalado; Flores;
-82513; Julio; Pinzon; Aguirre;
