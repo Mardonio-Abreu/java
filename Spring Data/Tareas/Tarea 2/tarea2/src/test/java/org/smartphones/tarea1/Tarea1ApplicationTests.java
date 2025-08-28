@@ -1,16 +1,12 @@
 package org.smartphones.tarea1;
 
-import jakarta.transaction.Transactional;
 import org.junit.jupiter.api.Test;
 import org.smartphones.tarea1.model.SmartPhone;
 import org.smartphones.tarea1.repository.SmartphoneRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.ComponentScan;
 
-import java.util.List;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -122,4 +118,24 @@ class Tarea1ApplicationTests {
         var modelosDiferentes = smartphoneRepository.findDistinctByModelo("Nokia");
         assertTrue(modelosDiferentes.size() == 1);
     }
+
+    @Test
+    void buscarLosTelefonos(){
+        var todosLostelefonos = smartphoneRepository.findEveryPhone();
+        assertTrue(todosLostelefonos.size() == 8);
+    }
+
+    @Test
+    void buscarTodosLosModelos(){
+        var todosLosModelos = smartphoneRepository.findEveryModelo();
+        assertTrue(todosLosModelos.size() == 8);
+    }
+
+    @Test
+    void buscarModeloConPrecio(){
+        SmartPhone modeloConPrecio = smartphoneRepository.findByPrecio(1900.0);
+        assertEquals("Xiaomi", modeloConPrecio.getModelo());
+    }
+
+
 }
